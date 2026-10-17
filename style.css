@@ -42,9 +42,10 @@ display: flex;
 justify-content: center;
 }
 
-.escola.image {
-    width: 100%;
-    padding: 100px;
+.escola_image {
+    width: 200px;
+    height: auto;
+    object-fit: contain;
 }
 .estudante_titulo{
 padding: 50px;
