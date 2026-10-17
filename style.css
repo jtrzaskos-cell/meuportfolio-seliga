@@ -31,11 +31,17 @@ text-align: center;
 width: 50%;
 font: 30px;
 }
-.sociais{
-display: flex;
-justify-content: flex-end;
-width: 25%;
-padding-right: 30px;
+.sociais {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icone-social {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    display: block;
 }
 .banner1{
 display: flex;
@@ -43,9 +49,7 @@ justify-content: center;
 }
 
 .escola_image {
-    width: 200px;
-    height: auto;
-    object-fit: contain;
+    width: 1521px;
 }
 .estudante_titulo{
 padding: 50px;
