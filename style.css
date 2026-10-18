@@ -57,7 +57,7 @@ text-align: center;
 }
 
 .sobre-mim {
-    background-color: #008BFF;
+    background-color: #000000;
     color: #FFFFFF;
 }
 
@@ -72,7 +72,11 @@ text-align: center;
     display: flex;
     justify-content: center;
 }
+.sobre-mim p strong {
+    display: flex;
+    justify-content: center;
 
+}
 .estudante-nome{
 text-align: center;
 }
