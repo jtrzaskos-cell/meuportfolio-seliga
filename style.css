@@ -54,12 +54,25 @@ justify-content: center;
 .estudante_titulo{
 padding: 50px;
 text-align: center;
+}
 
-.sobre-mim{
+.sobre-mim {
     background-color: #008BFF;
     color: #FFFFFF;
 }
+
+.sobre-titulo {
+    display: flex;
+    justify-content: center;
 }
+.texto-sobre {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
 .estudante-nome{
 text-align: center;
 }
