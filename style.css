@@ -6,6 +6,7 @@ box-sizing: border-box;
 body{
 font-family: "Poppins", sans-serif;
 }
+
 header{
 background-color: #000000;
 color: white;
@@ -43,25 +44,25 @@ font: 30px;
     object-fit: contain;
     display: block;
 }
+/*banner*/
 .banner1{
 display: flex;
 justify-content: center;
 }
 
-.escola_image {
+.banner_image {
     width: 1521px;
 }
-.estudante_titulo{
-padding: 50px;
-text-align: center;
-}
 
+/*Sobre mim */
 .sobre-mim {
     background-color: #000000;
     color: #FFFFFF;
 }
 
 .sobre-titulo {
+    font-size: 36px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
 }
@@ -77,30 +78,39 @@ text-align: center;
     justify-content: center;
 
 }
-.estudante-nome{
+
+/*Projetos*/
+.projetos {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.projeto-titulo{
+padding: 50px;
 text-align: center;
 }
-.estudante-imagem{
+
+.projeto-nome{
+text-align: center;
+}
+.projeto-imagem{
 width: 120px;
 }
-.estudante-icone{
+.projeto-icone{
 width: 38px;
 padding: 4px 8px;
 }
-.estudante{
-background-image: background-color(#faae43);
-padding: 24px 0;
-}
 
-.estudante.div{
+.projeto-div {
 text-align: center;
 padding: 24px 0;
 }
-.estudantes_todos{
+.projeto_todos{
 display: flex;
 justify-content: space-around;
 }
-.escola{
+
+/*rodape*/
+.rodape{
 background-image: linear-gradient(#40A2E3,#7FC2EF);
 color: white;
 display: flex;
@@ -109,7 +119,7 @@ padding: 24px 0;
 text-align:center;
 display:block;
 }
-.escola-titulo{
+.rodape-titulo{
 padding: 50px;
 text-align: center;
 }
