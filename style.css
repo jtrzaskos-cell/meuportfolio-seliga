@@ -106,22 +106,56 @@ justify-content: center;
 .projeto-div {
     display: grid;
     grid-template-columns: 45% 1fr auto;
-    gap: 15px;
+    grid-template-areas:
+        "imagem titulo icone"
+        "imagem descricao descricao";
     align-items: center;
+    gap: 15px 25px;
+    padding: 20px;
+    margin-bottom: 25px;
+    background: #101010;
+    border: 1px solid #252525;
+    border-radius: 15px;
 }
 
 .projeto-imagem {
+    grid-area: imagem;
     width: 100%;
-    grid-row: span 2;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
-.projeto-nome, .texto-projeto {
+.projeto-nome {
+    grid-area: titulo;
     margin: 0;
+    font-size: 25px;
+}
+
+.projeto-div > a {
+    grid-area: icone;
 }
 
 .projeto-icone {
-    width: 35px;
+    display: block;
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+    transition: transform 0.3s;
 }
+
+.projeto-div > a:hover .projeto-icone {
+    transform: scale(1.15);
+}
+
+.texto-projeto {
+    grid-area: descricao;
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
 
 /*rodape*/
 .rodape{
