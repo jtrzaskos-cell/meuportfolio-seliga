@@ -113,16 +113,12 @@ justify-content: center;
     gap: 15px 25px;
     padding: 20px;
     margin-bottom: 25px;
-    background: #101010;
-    border: 1px solid #252525;
     border-radius: 15px;
 }
 
 .projeto-imagem {
     grid-area: imagem;
     width: 100%;
-    aspect-ratio: 16 / 9;
-    object-fit: cover;
     border-radius: 10px;
 }
 
@@ -132,20 +128,10 @@ justify-content: center;
     font-size: 25px;
 }
 
-.projeto-div > a {
-    grid-area: icone;
-}
-
 .projeto-icone {
     display: block;
     width: 38px;
     height: 38px;
-    object-fit: contain;
-    transition: transform 0.3s;
-}
-
-.projeto-div > a:hover .projeto-icone {
-    transform: scale(1.15);
 }
 
 .texto-projeto {
