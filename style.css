@@ -104,45 +104,23 @@ justify-content: center;
 
 
 .projeto-div {
-    display: flex;
+    display: grid;
+    grid-template-columns: 45% 1fr auto;
+    gap: 15px;
     align-items: center;
-    gap: 25px;
 }
 
 .projeto-imagem {
-    width: 45%;
-    height: auto;
-    border-radius: 10px;
+    width: 100%;
+    grid-row: span 2;
 }
 
-.projeto-conteudo {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.projeto-cabecalho {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.projeto-nome {
+.projeto-nome, .texto-projeto {
     margin: 0;
-    font-size: 24px;
 }
 
 .projeto-icone {
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
-}
-
-.texto-projeto{
-    margin: 0;
-    font-size: 18px;
-    line-height: 1.5;
+    width: 35px;
 }
 
 /*rodape*/
