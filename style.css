@@ -51,7 +51,9 @@ justify-content: center;
 }
 
 .banner_image {
-    width: 1521px;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 /*Sobre mim */
