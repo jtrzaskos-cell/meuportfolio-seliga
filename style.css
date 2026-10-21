@@ -39,8 +39,8 @@ font: 30px;
 }
 
 .icone-social {
-    width: 35px;
-    height: 35px;
+    width: 55px;
+    height: 55px;
     object-fit: contain;
     display: block;
 }
@@ -76,12 +76,15 @@ justify-content: center;
 .sobre-mim p strong {
     display: flex;
     justify-content: center;
+    font-size: 20px;
 
 }
 
 /*Projetos*/
 .projetos {
     padding: 40px 8%;
+    background-color: #000000;
+    color: #FFFFFF;
 }
 
 .projeto-titulo {
@@ -102,10 +105,8 @@ justify-content: center;
     display: flex;
     align-items: center;
     gap: 20px;
-
     padding: 20px;
-    border-radius: 12px;
-    background-color: #f2f2f2;
+
 }
 
 
